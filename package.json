@@ -1,0 +1,60 @@
+{
+  "name": "apollo-reactive-hooks",
+  "version": "0.0.0",
+  "author": "Zac Lockwood",
+  "description": "The convenience of Apollo's graphql hooks, plus the reactivity of MobX.",
+  "keywords": [
+    "apollo",
+    "reactive",
+    "hooks",
+    "mobx",
+    "graphql",
+    "state-management"
+  ],
+  "license": "MIT",
+  "source": "src/index.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "exports": {
+    ".": "./dist/index.js",
+    "./decorators": "./dist/decorators.js",
+    "./hooks": "./dist/hooks.js",
+    "./types": "./dist/types.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacLockwood/apollo-reactive-hooks.git"
+  },
+  "bugs": "https://github.com/ZacLockwood/apollo-reactive-hooks/issues",
+  "homepage": "https://github.com/ZacLockwood/apollo-reactive-hooks#readme",
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint . --ext .ts,.tsx"
+  },
+  "peerDependencies": {
+    "@apollo/client": "^3.6.2",
+    "graphql": "^15.3.0",
+    "mobx": "^6.5.0",
+    "mobx-utils": "^6.0.5",
+    "react": "^17.0.2"
+  },
+  "devDependencies": {
+    "@apollo/client": "3.6.2",
+    "@types/react": "17.0.37",
+    "@typescript-eslint/eslint-plugin": "5.9.1",
+    "@typescript-eslint/parser": "5.0.0",
+    "eslint": "8.7.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "16.1.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.3",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.28.0",
+    "graphql": "15.3.0",
+    "mobx": "6.5.0",
+    "mobx-utils": "6.0.5",
+    "react": "17.0.2",
+    "typescript": "4.6.3"
+  }
+}
