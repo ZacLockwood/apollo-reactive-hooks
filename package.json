@@ -1,6 +1,6 @@
 {
   "name": "apollo-reactive-hooks",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "Zac Lockwood",
   "description": "The convenience of Apollo's graphql hooks, plus the reactivity of MobX.",
   "keywords": [
@@ -13,13 +13,13 @@
   ],
   "license": "MIT",
   "source": "src/index.ts",
+  "main": "dist/index.js",
   "files": [
     "dist/**/*"
   ],
   "exports": {
     ".": "./dist/index.js",
     "./decorators": "./dist/decorators.js",
-    "./hooks": "./dist/hooks.js",
     "./types": "./dist/types.js"
   },
   "repository": {

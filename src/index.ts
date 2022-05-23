@@ -1,2 +1,2 @@
-// eslint-disable-next-line import/prefer-default-export
 export { default as ApolloReactiveHooksProvider } from "./Internal/Provider";
+export { default as useReactiveQuery } from "./Internal/Hooks/useReactiveQuery";
